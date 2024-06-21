@@ -1,5 +1,4 @@
- <img src="./icon.png" alt="alt text" width="200">  
- 
+<img src="./img/icon.png" width="100" alt="半智能" style="vertical-align:middle; margin-right:10px;"> 
 # 半智能
 ### 网站成立的第1️⃣天，离网站注销∞天。  
 AI再怎么牛逼，也无法做到全自动。所以面对未来世界，我选择了半智能！  
