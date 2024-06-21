@@ -1,4 +1,4 @@
-<img src="./docs/img/icon.png" width="100" alt="半智能" style="vertical-align:middle; margin-right:10px;"> 
+<img src="https://banzhineng.com/img/icon.png" width="100" alt="半智能" style="vertical-align:middle; margin-right:10px;"> 
 
 # 半智能
 
@@ -20,7 +20,7 @@ AI再怎么牛逼，也无法做到全自动。所以面对未来世界，我选
 
 搭建本地写作环境，以后就可以像写代码一样写文章了。
 
-<img src="./docs/img/work_hard.png" width="100" alt="研究中" style="vertical-align:middle; margin-right:10px;"> 
+<img src="https://banzhineng.com/img/work_hard.jpg" width="100" alt="研究中" style="vertical-align:middle; margin-right:10px;"> 
 正在研究中...
 
 
