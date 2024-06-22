@@ -23,4 +23,14 @@ AI再怎么牛逼，也无法做到全自动。所以面对未来世界，我选
 <img src="https://banzhineng.com/img/work_hard.jpg" width="100" alt="研究中" style="vertical-align:middle; margin-right:10px;"> 
 正在研究中...
 
+### 网站成立的第3️⃣天，离网站注销∞天。 
+
+许多人以为注册域名很贵，去国外的网站上去薅羊毛。
+
+但最后羊毛没薅成，反而被坑了。比如狗爹，首页显示购买域名不到1块人民币，
+
+但在结账的时候最少需要88元。
+
+
+
 
