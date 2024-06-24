@@ -86,7 +86,7 @@ Angular就不太熟悉，我理解的是偏向于实现Android平台手机端的
 
 吸引更多潜在用户来你这里消费的工具。所以用机器优化SEO的这个命题本质上并不存在，始终都是需要人参与的。
 
-<img src="https://banzhineng.com/watchmen.png" width="750" alt="守望者"
+<img src="https://banzhineng.com/img/watchmen.jpeg" width="750" alt="守望者"
             style="vertical-align:middle; margin-right:10px;">
 
 然后我联想到《守望者》里有个画面，冷战的时候有一波人专门预言世界末日。好多事件，在他们看来都会加速世界末日的到来。
