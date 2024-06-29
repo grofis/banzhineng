@@ -1,0 +1,26 @@
+{
+  "name": "banzhineng",
+  "version": "1.0.0",
+  "description": "<img src=\"https://banzhineng.com/img/icon.png\" width=\"100\" alt=\"半智能\" style=\"vertical-align:middle; margin-right:10px;\">",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/grofis/banzhineng.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grofis/banzhineng/issues"
+  },
+  "homepage": "https://banzhineng.com",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
