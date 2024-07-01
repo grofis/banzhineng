@@ -1,0 +1,97 @@
+/* 全局样式 */
+html,
+body {
+  background-color: #f3f3d1;
+  font-family: Georgia, serif;
+  /* 全局正文字体 */
+  margin: 0;
+  padding: 0;
+}
+
+.header,
+.footer {
+  /* background-color: #f8f9fa; */
+  padding: 1rem;
+  text-align: center;
+}
+
+.header a {
+  text-decoration: none;
+  /* color: #007bff; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.content {
+  /* padding: 1em;  */
+  margin: 0 auto;
+} 
+
+.row>*{
+  padding: 0;
+}
+
+h2.short-title {
+  font-size: 1.2em;
+  color: #20B2AA;
+}
+
+.post {
+  margin-bottom: 2em;
+}
+
+.post h2,
+.post h1 {
+  margin-top: 0;
+  /* font-family: "Trebuchet MS", Arial, "Lucida Grande", Verdana, Lucida, Helvetica, sans-serif; */
+  /* 标题字体 */
+}
+
+.post-meta {
+  font-size: 0.9em;
+  color: #666;
+}
+
+
+/* 针对 Retina 屏幕优化 */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2) {
+  .logo {
+    background-image: url('logo@2x.png');
+    background-size: 100% 100%;
+  }
+}
+
+
+.custom-link {
+  text-decoration: none;
+  color: #FFC125;
+}
+
+.iconfont {
+  font-size: 1.2em;
+}
+
+#waline {
+  margin: -10px;
+}
+
+.wl-panel {
+  margin: 5px 0 0 0;
+}
+
+.wl-power {
+  display: none !important;
+}
