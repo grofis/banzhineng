@@ -43,7 +43,7 @@ a {
 
 h2.short-title {
   font-size: 1.2em;
-  color: #20B2AA;
+  /* color: #20B2AA; */
 }
 
 .post {
@@ -82,10 +82,6 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .iconfont {
   font-size: 1.2em;
-}
-
-#waline {
-  margin: -10px;
 }
 
 .wl-panel {
