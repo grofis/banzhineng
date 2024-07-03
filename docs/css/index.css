@@ -25,19 +25,65 @@ a {
   text-decoration: none;
 }
 
- .container {
+
+.container {
+  flex-direction: row;
+}
+
+/* 大屏幕时双栏布局 */
+@media (min-width: 992px) {
+  /*水平居中*/
+  .post-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .content {
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+
+  .sidebar {
+    flex: 0 0 20%;
+    max-width: 20%;
+    display: block;
+  }
+}
+
+/* 小屏幕时单栏布局 */
+@media (max-width: 749px) {
+
+
+  .content {
+    width: 100%;
+    order: 1;
+  }
+
+  .sidebar {
+    width: 100%;
+    display: block;
+    order: 2;
+    /* 使得 sidebar 在小屏幕时在主体内容之后 */
+  }
+
+  footer {
+    order: 3;
+  }
+}
+
+.container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
 }
 
-.content {
-  /* padding: 1em;  */
-  margin: 0 auto;
-} 
+/* .content { */
+/* padding: 1em;  */
+/* margin: 0 auto; */
+/* } */
 
-.row>*{
+.row>* {
   padding: 0;
 }
 
@@ -58,7 +104,7 @@ h2.short-title {
 }
 
 .post-meta {
-  font-size: 0.9em;
+  font-size: 1.1em;
   color: #666;
 }
 
