@@ -15,7 +15,7 @@
     <title>
         半智能
     </title>
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" sizes="32x32" href="./img/favicon_32.ico" />
     <link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="./img/favicon_16.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +24,12 @@
     <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
     <link rel="stylesheet" href="/css/iconfont.css" />
     <link rel="stylesheet" href="/css/index.css">
-    
+    <script>
+        window.addEventListener('resize', () => {
+            const screenWidth = window.innerWidth;
+            console.log(`当前屏幕宽度是: ${screenWidth}px`);
+        });
+    </script>
 <meta name="generator" content="Hexo 7.2.0"></head>
 
   <body>
@@ -45,6 +50,13 @@
     </header>
     <div class="container">
       <div class="content">
+        
+          <div class="post">
+            <h2 class="post-title"><a href="/2024/07/day-15.html">All Need Is Your Attention</a></h2>
+            <div class="post-excerpt">
+              AI中再提的一个概念是“All Need Is Your Attention”，其实这个概念同样也适用于其他领域
+            </div>
+          </div>
         
           <div class="post">
             <h2 class="post-title"><a href="/2024/07/day-14.html">第1️⃣4️⃣天 剩∞天</a></h2>
@@ -70,7 +82,7 @@
 
         
       </div>
-      <div class="sidebar sidebar-stats d-none d-lg-block">
+      <div class="normal-sidebar-stats">
         <aside class="sidebar sidebar-stats">
     <h2>Site Statistics</h2>
     <ul>
@@ -82,7 +94,7 @@
   
       </div>
     </div>
-    <div class="container d-block d-lg-none">
+    <div class="container mobile-sidebar-stats">
       <aside class="sidebar sidebar-stats">
     <h2>Site Statistics</h2>
     <ul>
