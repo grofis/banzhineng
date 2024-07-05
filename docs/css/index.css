@@ -3,21 +3,14 @@ html,
 body {
   background-color: #f3f3d1;
   font-family: Georgia, serif;
-  /* 全局正文字体 */
   margin: 0;
   padding: 0;
 }
 
 .header,
 .footer {
-  /* background-color: #f8f9fa; */
   padding: 1rem;
   text-align: center;
-}
-
-.header a {
-  text-decoration: none;
-  /* color: #007bff; */
 }
 
 a {
@@ -25,115 +18,27 @@ a {
   text-decoration: none;
 }
 
-
-.container {
-  flex-direction: row;
-}
-
-.container {
+.main-container {
   display: flex;
-  flex-wrap: wrap;
+  
   justify-content: center;
   margin: 0 auto;
-}
-
-/* 大屏幕时双栏布局 */
-@media (min-width: 750px) {
-  /*水平居中*/
-  .post-container {
-    width: 60%;
-    margin: 0 auto;
-  }
-
-  .container {
-    width: 60%;
-  }
-
-  .content {
-    flex: 0 0 60%;
-    max-width: 60%;
-  }
-
-  .normal-sidebar-stats {
-    flex: 0 0 20%;
-    max-width: 20%;
-    display: block;
-  }
-
-  .mobile-sidebar-stats {
-    display: none; 
-  }
-}
-
-/* 小屏幕时单栏布局 */
-@media (max-width: 749px) {
-
-
-  .content {
-    width: 100%;
-    order: 1;
-  }
-
-  .normal-sidebar-stats {
-    display: none;
-  }
-
-  .mobile-sidebar-stats {
-    width: 100%;
-    display: block;
-    order: 2;
-    /* 使得 sidebar 在小屏幕时在主体内容之后 */
-  }
-
-  footer {
-    order: 3;
-  }
-}
-
-
-
-/* .content { */
-/* padding: 1em;  */
-/* margin: 0 auto; */
-/* } */
-
-.row>* {
-  padding: 0;
-}
-
-h2.short-title {
-  font-size: 1.2em;
-  /* color: #20B2AA; */
+  flex-direction: row;
+  border: 1px solid #FFC125;
 }
 
 .post {
   margin-bottom: 2em;
 }
 
-.post h2,
-.post h1 {
-  margin-top: 0;
-  /* font-family: "Trebuchet MS", Arial, "Lucida Grande", Verdana, Lucida, Helvetica, sans-serif; */
-  /* 标题字体 */
+h2.short-title {
+  font-size: 1.2em;
 }
 
 .post-meta {
   font-size: 1.1em;
   color: #666;
 }
-
-
-/* 针对 Retina 屏幕优化 */
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (min-device-pixel-ratio: 2) {
-  .logo {
-    background-image: url('logo@2x.png');
-    background-size: 100% 100%;
-  }
-}
-
 
 .custom-link {
   text-decoration: none;
@@ -150,4 +55,137 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .wl-power {
   display: none !important;
+}
+
+.row>* {
+  padding: 0;
+}
+
+.post h2,
+.post h1 {
+  margin-top: 0;
+}
+
+.main-container {
+  border: 1px solid salmon;
+}
+
+.main-content {
+  border: 1px solid sandybrown;
+}
+
+.sidebar {
+  border: 1px solid seagreen;
+}
+
+/* 屏幕宽度最大为650px时，content、sidebar上下排列 */
+@media (max-width: 650px) {
+  .main-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .main-content,
+  .sidebar {
+    width: 100%;
+  }
+}
+
+/* 屏幕宽度大于650px小于等于750px时，content、sidebar上下排列 */
+@media (min-width: 651px) and (max-width: 750px) {
+  .main-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .main-content,
+  .sidebar {
+    width: 100%;
+    order: 1;
+  }
+}
+
+/* 屏幕宽度大于750px小于870px时，container宽度为750px，content、sidebar上下排列 */
+@media (min-width: 751px) and (max-width: 870px) {
+  .main-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 750px;
+    margin: auto;
+  }
+
+  .main-content,
+  .sidebar {
+    width: 100%;
+    order: 1;
+  }
+}
+
+/* 屏幕宽度等于870px时，content、sidebar左右排列 */
+@media (min-width: 870px) and (max-width: 870px) {
+  .main-container {
+    width: 870px;
+    margin: auto;
+    display: flex;
+  }
+
+  .main-content {
+    width: 650px;
+    margin-left: 7px;
+    margin-right: 5px;
+  }
+
+  .sidebar {
+    width: 200px;
+    margin-right: 8px;
+  }
+}
+
+/* 屏幕宽度大于870px小于955px时，content、sidebar左右排列 */
+@media (min-width: 871px) and (max-width: 954px) {
+  .main-container {
+    width: 100%;
+    display: flex;
+  }
+
+  .main-content {
+    width: calc(100% - 205px);
+    margin-right: 5px;
+  }
+
+  .sidebar {
+    width: 200px;
+  }
+}
+
+/* 屏幕宽度大于等于955px时，content、sidebar左右排列 */
+@media (min-width: 955px) {
+  .main-container {
+    width: 955px;
+    /* margin: auto; */
+    display: flex;
+    /* flex-direction: row; */
+  }
+
+  .main-content {
+    width: 750px;
+    margin-right: 5px;
+  }
+
+  .sidebar {
+    width: 200px;
+  }
+}
+
+/* 针对 Retina 屏幕优化 */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2) {
+  .logo {
+    background-image: url('logo@2x.png');
+    background-size: 100% 100%;
+  }
 }
