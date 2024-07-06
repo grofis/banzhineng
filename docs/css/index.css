@@ -7,6 +7,11 @@ body {
   padding: 0;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+}
+
 .header,
 .footer {
   padding: 1rem;
@@ -20,7 +25,7 @@ a {
 
 .main-container {
   display: flex;
-  
+
   justify-content: center;
   margin: 0 auto;
   flex-direction: row;
@@ -32,7 +37,7 @@ a {
 }
 
 h2.short-title {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .post-meta {
@@ -66,6 +71,10 @@ h2.short-title {
   margin-top: 0;
 }
 
+.desc {
+  font-size: 0.9em;
+}
+
 .main-container {
   border: 1px solid salmon;
 }
@@ -76,6 +85,10 @@ h2.short-title {
 
 .sidebar {
   border: 1px solid seagreen;
+}
+
+.text-right{
+  text-align: right;
 }
 
 /* 屏幕宽度最大为650px时，content、sidebar上下排列 */
@@ -90,6 +103,12 @@ h2.short-title {
   .sidebar {
     width: 100%;
   }
+
+  .header-container,
+  .header-content {
+    width: 100%;
+  }
+
 }
 
 /* 屏幕宽度大于650px小于等于750px时，content、sidebar上下排列 */
@@ -104,6 +123,11 @@ h2.short-title {
   .sidebar {
     width: 100%;
     order: 1;
+  }
+
+  .header-container,
+  .header-content {
+    width: 100%;
   }
 }
 
@@ -120,6 +144,11 @@ h2.short-title {
   .sidebar {
     width: 100%;
     order: 1;
+  }
+
+  .header-container,
+  .header-content {
+    width: 750px;
   }
 }
 
@@ -141,6 +170,11 @@ h2.short-title {
     width: 200px;
     margin-right: 8px;
   }
+
+  .header-container,
+  .header-content {
+    width: 870px;
+  }
 }
 
 /* 屏幕宽度大于870px小于955px时，content、sidebar左右排列 */
@@ -157,6 +191,11 @@ h2.short-title {
 
   .sidebar {
     width: 200px;
+  }
+
+  .header-container,
+  .header-content {
+    width: 100%;
   }
 }
 
@@ -176,6 +215,11 @@ h2.short-title {
 
   .sidebar {
     width: 200px;
+  }
+
+  .header-container,
+  .header-content {
+    width: 955px;
   }
 }
 
