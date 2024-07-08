@@ -25,7 +25,6 @@ a {
 
 .main-container {
   display: flex;
-
   justify-content: center;
   margin: 0 auto;
   flex-direction: row;
@@ -38,6 +37,7 @@ a {
 
 h2.short-title {
   font-size: 1.1em;
+  font-family: "Trebuchet MS", Arial, "Lucida Grande", Verdana, Lucida, Helvetica, sans-serif;
 }
 
 .post-meta {
@@ -69,6 +69,7 @@ h2.short-title {
 .post h2,
 .post h1 {
   margin-top: 0;
+  font-family: "Trebuchet MS", Arial, "Lucida Grande", Verdana, Lucida, Helvetica, sans-serif;
 }
 
 .desc {
@@ -91,6 +92,12 @@ h2.short-title {
   text-align: right;
 }
 
+.post-container{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 /* 屏幕宽度最大为650px时，content、sidebar上下排列 */
 @media (max-width: 650px) {
   .main-container {
@@ -109,6 +116,12 @@ h2.short-title {
     width: 100%;
   }
 
+  .post-container,
+  .post-content,
+  .post-header,
+  .post-header-content {
+    width: 100%;
+  }
 }
 
 /* 屏幕宽度大于650px小于等于750px时，content、sidebar上下排列 */
@@ -127,6 +140,13 @@ h2.short-title {
 
   .header-container,
   .header-content {
+    width: 100%;
+  }
+
+  .post-container,
+  .post-content,
+  .post-header,
+  .post-header-content {
     width: 100%;
   }
 }
@@ -148,6 +168,13 @@ h2.short-title {
 
   .header-container,
   .header-content {
+    width: 750px;
+  }
+
+  .post-container,
+  .post-content,
+  .post-header,
+  .post-header-content {
     width: 750px;
   }
 }
@@ -175,6 +202,13 @@ h2.short-title {
   .header-content {
     width: 870px;
   }
+
+  .post-container,
+  .post-content,
+  .post-header,
+  .post-header-content {
+    width: 750px;
+  }
 }
 
 /* 屏幕宽度大于870px小于955px时，content、sidebar左右排列 */
@@ -196,6 +230,13 @@ h2.short-title {
   .header-container,
   .header-content {
     width: 100%;
+  }
+
+  .post-container,
+  .post-content,
+  .post-header,
+  .post-header-content {
+    width: 750px;
   }
 }
 
@@ -220,6 +261,13 @@ h2.short-title {
   .header-container,
   .header-content {
     width: 955px;
+  }
+
+  .post-container,
+  .post-content,
+  .post-header,
+  .post-header-content {
+    width: 750px;
   }
 }
 
