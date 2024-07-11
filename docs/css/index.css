@@ -8,7 +8,8 @@ body {
   font-size: 16px;
 }
 
-.h1, h1 {
+.h1,
+h1 {
   font-size: calc(1.375rem + 0.5vw);
 }
 
@@ -44,7 +45,7 @@ short-title {
   font-size: calc(1.175rem + 1vw);
 }
 
-.next { 
+.next {
   color: cadetblue;
 }
 
@@ -81,8 +82,9 @@ short-title {
 }
 
 .desc {
-  font-size: 1.1em;
-  line-height: 250%; /* 行高是字体大小的150% */
+  font-size: 1.0em;
+  line-height: 200%;
+  /* 行高是字体大小的150% */
 }
 
 .main-container {
@@ -97,14 +99,28 @@ short-title {
   border: 1px solid seagreen;
 }
 
-.text-right{
+.text-right {
   text-align: right;
 }
 
-.post-container{
+.post-container {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+}
+
+.card-body{
+  background-color: #87CEFA;
+}
+
+.text-ellipsis {
+  display: inline-block;
+  max-width: 15ch;
+  /* 限制最大宽度为12个字符 */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle; /* 设置垂直对齐 */
 }
 
 /* 屏幕宽度最大为650px时，content、sidebar上下排列 */
