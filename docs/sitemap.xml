@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://banzhineng.com/2024/07/day-22.html</loc>
+    
+    <lastmod>2024-07-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://banzhineng.com/2024/07/day-21.html</loc>
     
     <lastmod>2024-07-11</lastmod>
@@ -193,7 +202,7 @@
 
   <url>
     <loc>https://banzhineng.com/</loc>
-    <lastmod>2024-07-11</lastmod>
+    <lastmod>2024-07-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -203,7 +212,7 @@
   
   <url>
     <loc>https://banzhineng.com/categories/%E6%89%93%E5%B7%A5%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2024-07-11</lastmod>
+    <lastmod>2024-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
