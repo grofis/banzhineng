@@ -164,7 +164,7 @@ ahref的免费教程还不错，但是付费的就贵了。可能他们的目的
 
 这里把今天的听播客的评论也一并附上，以飨读者。
 
-<img src="https://banzhineng.com/img/2024-06-28.png" width="750" alt="博客评论"
+<img src="https://banzhineng.com/img/2024-06-28.jpg" width="750" alt="博客评论"
             style="vertical-align:middle; margin-right:10px;">
 
 ### 网站成立的第🔟天，离网站注销∞天
