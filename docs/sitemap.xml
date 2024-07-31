@@ -566,6 +566,20 @@
   </url>
   
   <url>
+    <loc>https://banzhineng.com/tags/Android/</loc>
+    <lastmod>2024-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://banzhineng.com/tags/Bug/</loc>
+    <lastmod>2024-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://banzhineng.com/tags/%E6%8F%90%E4%BA%A4/</loc>
     <lastmod>2024-07-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -581,20 +595,6 @@
   
   <url>
     <loc>https://banzhineng.com/tags/%E6%89%8B%E6%9C%BA/</loc>
-    <lastmod>2024-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://banzhineng.com/tags/Android/</loc>
-    <lastmod>2024-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://banzhineng.com/tags/Bug/</loc>
     <lastmod>2024-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

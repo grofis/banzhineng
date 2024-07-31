@@ -13,7 +13,11 @@ h1 {
   font-size: calc(1.375rem + 0.5vw);
 }
 
-.card-body h1{
+span {
+  font-size: calc(0.875rem);
+}
+
+.card-body h1 {
   font-size: calc(1.075rem + 0.5vw);
 }
 
@@ -33,7 +37,7 @@ a {
   text-decoration: none;
 }
 
-a.underline{
+a.underline {
   border-bottom: 1px solid;
   padding-bottom: 1px;
   /* text-decoration-line: underline;
@@ -45,21 +49,31 @@ a.underline{
 .main-container {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+  margin: 10px auto;
   flex-direction: row;
-  border: 1px solid #FFC125;
+  /* border: 1px solid #FFC125; */
+}
+
+.header-container,.post-header {
+  margin-top: 30px;
 }
 
 .post {
   margin-bottom: 0.8em;
 }
 
-short-title {
-  font-size: calc(1.175rem + 1vw);
+.short-title,
+h2 {
+  font-size: calc(0.775rem + 0.5vw);
+}
+
+.small-title{
+  font-size: calc(0.575rem + 0.5vw);
 }
 
 .next {
   color: cadetblue;
+  margin: 10px 0;
 }
 
 .post-meta {
@@ -74,6 +88,10 @@ short-title {
 
 .iconfont {
   font-size: 1.2em;
+}
+
+.post-excerpt {
+  text-align: justify;
 }
 
 .wl-panel {
@@ -97,19 +115,13 @@ short-title {
 .desc {
   font-size: 1.0em;
   line-height: 200%;
-  /* 行高是字体大小的150% */
-}
-
-.main-container {
-  border: 1px solid salmon;
-}
-
-.main-content {
-  border: 1px solid sandybrown;
+  color: #7F7F7F;
+  margin-bottom:0.5rem;
 }
 
 .sidebar {
   border: 1px solid seagreen;
+  border-radius: 2%;
 }
 
 .text-right {
@@ -122,12 +134,14 @@ short-title {
   margin: 0 auto;
 }
 
-.post-content{
-  line-height: 150%;
+.post-content {
+  line-height: 180%;
+  margin-top: 0.5rem;
 }
 
-.card-body{
+.card-body {
   background-color: #87CEFA;
+  padding: 5px 0;
 }
 
 .text-ellipsis {
@@ -137,7 +151,8 @@ short-title {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  vertical-align: middle; /* 设置垂直对齐 */
+  vertical-align: middle;
+  /* 设置垂直对齐 */
 }
 
 /* 屏幕宽度最大为650px时，content、sidebar上下排列 */
@@ -146,12 +161,14 @@ short-title {
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
+    padding: 5px;
   }
 
   .main-content,
   .sidebar {
     width: 100%;
   }
+
 
   .header-container,
   .header-content {
@@ -172,6 +189,7 @@ short-title {
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
+    padding: 8px;
   }
 
   .main-content,
