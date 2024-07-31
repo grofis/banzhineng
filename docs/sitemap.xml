@@ -419,20 +419,6 @@
   </url>
   
   <url>
-    <loc>https://banzhineng.com/tags/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2024-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://banzhineng.com/tags/Github/</loc>
-    <lastmod>2024-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://banzhineng.com/tags/SEO/</loc>
     <lastmod>2024-07-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -482,14 +468,14 @@
   </url>
   
   <url>
-    <loc>https://banzhineng.com/tags/Notion/</loc>
+    <loc>https://banzhineng.com/tags/%E5%BC%80%E6%BA%90/</loc>
     <lastmod>2024-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://banzhineng.com/tags/%E5%9C%BA%E6%99%AF/</loc>
+    <loc>https://banzhineng.com/tags/Github/</loc>
     <lastmod>2024-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -517,20 +503,6 @@
   </url>
   
   <url>
-    <loc>https://banzhineng.com/tags/%E7%9F%A5%E4%B9%8E/</loc>
-    <lastmod>2024-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://banzhineng.com/tags/%E5%B8%A6%E8%B4%A7/</loc>
-    <lastmod>2024-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://banzhineng.com/tags/%E4%B8%93%E6%B3%A8/</loc>
     <lastmod>2024-07-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -552,6 +524,20 @@
   </url>
   
   <url>
+    <loc>https://banzhineng.com/tags/Notion/</loc>
+    <lastmod>2024-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://banzhineng.com/tags/%E5%9C%BA%E6%99%AF/</loc>
+    <lastmod>2024-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://banzhineng.com/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/</loc>
     <lastmod>2024-07-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -559,28 +545,21 @@
   </url>
   
   <url>
+    <loc>https://banzhineng.com/tags/%E7%9F%A5%E4%B9%8E/</loc>
+    <lastmod>2024-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://banzhineng.com/tags/%E5%B8%A6%E8%B4%A7/</loc>
+    <lastmod>2024-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://banzhineng.com/tags/%E8%87%AA%E5%AA%92%E4%BD%93/</loc>
-    <lastmod>2024-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://banzhineng.com/tags/%E6%89%8B%E6%9C%BA/</loc>
-    <lastmod>2024-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://banzhineng.com/tags/Root/</loc>
-    <lastmod>2024-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://banzhineng.com/tags/Android/</loc>
     <lastmod>2024-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -601,7 +580,28 @@
   </url>
   
   <url>
+    <loc>https://banzhineng.com/tags/%E6%89%8B%E6%9C%BA/</loc>
+    <lastmod>2024-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://banzhineng.com/tags/Android/</loc>
+    <lastmod>2024-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://banzhineng.com/tags/Bug/</loc>
+    <lastmod>2024-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://banzhineng.com/tags/Root/</loc>
     <lastmod>2024-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

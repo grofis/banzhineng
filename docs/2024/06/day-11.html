@@ -40,6 +40,15 @@
       const screenWidth = window.innerWidth;
       console.log(`当前屏幕宽度是: ${screenWidth}px`);
     });
+
+    document.addEventListener('DOMContentLoaded', function () {
+      // 检查某个条件，然后决定是否移除响应式字体大小类
+      if (window.innerWidth > 991.98) {
+        document.body.classList.remove('rfs');
+        console.log('已移除响应式字体...')
+      }
+    });
+
   </script>
   <!-- 添加结构化数据 -->
   <script type="application/ld+json">
